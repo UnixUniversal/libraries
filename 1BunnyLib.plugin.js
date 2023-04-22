@@ -1719,7 +1719,7 @@ module.exports = (() => {
                 this.commands.size + 1
               }`.toLowerCase());
             this.commands.set(name, command);
-            ApplicationCommandStore.ZP.shouldResetAll = true;
+//             ApplicationCommandStore.ZP.shouldResetAll = true;
           }
           unregister(name) {
             const { ApplicationCommandStore } = LibraryModules;
